@@ -23,11 +23,3 @@ class ChannelPublisher:
             poll.add(o)
 
         self.bot.send_poll(self.channel, poll)
-
-
-publisher = ChannelPublisher(BOT_TOKEN, CHANNEL)
-publisher.send_text("**#Headerrr** \n"
-                    "Abzac 1 \n"
-                    "[link to mail.ru](https://mail.ru) \n"
-                    "Abzac 2 \n")
-publisher.send_poll("test?", ['+', '-'])

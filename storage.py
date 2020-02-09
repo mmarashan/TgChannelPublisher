@@ -1,0 +1,6 @@
+BOT_TOKEN = ''
+CHANNEL = ''
+
+PROXY_SERVER = ''
+PROXY_USER = ''
+PROXY_PASS = ''
